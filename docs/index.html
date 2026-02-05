@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Privacy Policy — Task Control</title>
+    <link rel="stylesheet" href="/docs/styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="container">
+        <h1>Privacy Policy</h1>
+        <p class="muted">Last updated: Feb 5, 2026</p>
+      </div>
+    </header>
+
+    <main class="container content">
+      <section>
+        <p>
+          This Privacy Policy explains how <strong>Task Control</strong> ("the App") collects, uses, and shares information when you use the App. By using the App you agree to the collection and use of information in accordance with this policy.
+        </p>
+
+        <h2>Data We Collect</h2>
+        <ul>
+          <li><strong>Microphone audio:</strong> The App uses speech-to-text to transcribe voice input. Audio is processed on-device when possible and/or sent to the speech recognition service provided by the speech_to_text plugin. No audio is uploaded to our servers by default except when you explicitly use features that sync to Firebase.</li>
+          <li><strong>Firebase account information:</strong> If you sign in, we store basic account identifiers and profile information required for authentication.</li>
+          <li><strong>App data:</strong> Tasks, notes, and widget configuration are stored locally. If you enable cloud sync, task data is stored in your Firebase Realtime Database.</li>
+          <li><strong>Device identifiers:</strong> Basic device information required for app functionality (OS version, device model) and crash/diagnostic data if you enable diagnostics.</li>
+        </ul>
+
+        <h2>How We Use Data</h2>
+        <ul>
+          <li>Provide core app functionality (task creation, sync, widgets, notifications).</li>
+          <li>Synchronize user data across devices when you opt into Firebase sync.</li>
+          <li>Send push notifications and scheduled reminders.</li>
+        </ul>
+
+        <h2>Third-Party Services</h2>
+        <p>We use Firebase for authentication and realtime database storage. We may use third-party plugins for notifications, scheduling, and speech recognition. These services are governed by their own privacy policies.</p>
+
+        <h2>Ads and Analytics</h2>
+        <p>This app does not serve ads. If analytics or advertising libraries are added in future releases, we will disclose them and update this policy.</p>
+
+        <h2>Permissions</h2>
+        <ul>
+          <li><strong>Microphone:</strong> required for voice input and speech-to-text features.</li>
+          <li><strong>Exact alarms / background services:</strong> used to schedule reminders and update home screen widgets.</li>
+        </ul>
+
+        <h2>Sharing and Disclosure</h2>
+        <p>We do not sell your personal information. We may disclose data to comply with legal obligations or to protect rights and safety.</p>
+
+        <h2>Data Safety and User Controls</h2>
+        <ul>
+          <li>You can opt out of cloud sync by disabling account sign-in.</li>
+          <li>To delete your data, disable cloud sync and remove account data within the app. If you have enabled cloud sync, you may need to remove cloud-stored data from the Firebase project (this is not automated by the app).</li>
+        </ul>
+
+        <hr />
+        <p class="muted small">Template notes: Update any details about server-side processing if you introduce cloud services beyond Firebase.</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© Task Control</p>
+      </div>
+    </footer>
+  </body>
+</html>
